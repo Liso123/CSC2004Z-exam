@@ -9,7 +9,7 @@ public class Extract
         System.out.println("Enter the address book filename:");
         String filename = user.nextLine();
         getData(filename);
-        System.out.println("DONE");
+        System.out.println("DONE!");
     }
 
     public static void getData(String file)
